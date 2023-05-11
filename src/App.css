@@ -3,6 +3,7 @@
   /* background: red; */
   background-image: url(https://www.dukehealth.org/sites/default/files/blog_post/thinkstockphotos-480125956.jpg);
   background-size: cover;
+  background-position: center;
   min-width: 100vw;
   min-height:100vh;
 }
@@ -77,10 +78,10 @@ background: rgba(255,255,255, .5);
 
 .homepage{
   /* background: red; */
-  background-image: url(https://www.dukehealth.org/sites/default/files/blog_post/thinkstockphotos-480125956.jpg);
+  /* background-image: url(https://www.dukehealth.org/sites/default/files/blog_post/thinkstockphotos-480125956.jpg);
   background-size: cover;
   width: 100vw;
   height:100vh;
-  position:fixed;
+  position:fixed; */
   top: 0;
 }
