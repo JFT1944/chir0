@@ -24,10 +24,17 @@ if(name !== 'sam'){
 
     return(
     <>
+    <div className="doctor_info">
+    <div>
+        <img className='profile_img' src="https://media.istockphoto.com/id/1147544807/vector/thumbnail-image-vector-graphic.jpg?s=612x612&w=0&k=20&c=rnCKVbdxqkjlcs3xH87-9gocETqpspHFXu5dIGB4wuM=" alt="" />
+    </div>
+
+    <div className="doc_text">
     <h1>{staffInfo[name].name}</h1>
     <h3>{staffInfo[name].position}</h3>
-    <img src="" alt="" />
-    <p>{'info'}</p>
+    <p>{staffInfo[name].bio}</p>
+    </div>
+    </div>
     
     </>
     )

@@ -13,7 +13,7 @@ function Home(){
         <>
         
         <div className="homepage">
-        <div style={{height:'115px'}}></div>
+        {/* <div style={{height:'115px'}}></div> */}
         <h1>Home</h1>
         </div>
         </>

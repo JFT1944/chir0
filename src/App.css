@@ -49,11 +49,17 @@
   align-items: center;
   background-color: rgba(255,255,255, .0);
   transition: 'background', 5s, ease-in-out;
+  
 }
 .nav_holder > div > a{
   display: flex;
   align-items: center;
 }
+
+.nav_holder > div > a :hover{
+  background: none;
+}
+
 .nav_holder :hover{
 background: rgba(255,255,255, .5);
 }
@@ -62,7 +68,7 @@ background: rgba(255,255,255, .5);
   font-weight: bold;
   display: flex;
   justify-content: end;
-  position:fixed;
+  position:absolute;
   top: 0;
   height: 115px;
   width: 100vw;
@@ -84,4 +90,58 @@ background: rgba(255,255,255, .5);
   height:100vh;
   position:fixed; */
   top: 0;
+}
+
+.profile_img{
+  min-width: 300px;
+  max-width: 400px;
+}
+
+.doctor_info{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 75px;
+  background: rgba(0, 0, 0, .5);
+  border-radius: 25px;
+  margin: 0 75px;
+}
+.doc_text > h1{
+  font-size: 2.7em;
+  margin-top: 0;
+
+}
+.doc_text{
+  padding: 0 50px;
+  text-align: left;
+  color: white;
+  text-shadow: 2px 2px black;
+  min-width: 300px;
+  width: 50%;
+
+}
+
+
+
+a{
+  transition: transform ease-out 1s;
+  color: #2a2179;
+}
+
+a:active{
+  transform: scale(1.2);
+  color: #2a2179;
+}
+
+.staff_dropdown{
+  background: white;
+  position: absolute;
+  width: 200px;
+  flex-direction: column;
+  display: none;
+  text-align: left;
+  text-decoration: none;
+}
+.staff_dropdown > a{
+  text-decoration: none;
+  padding: 10px 10px
 }

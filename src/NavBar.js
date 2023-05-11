@@ -1,10 +1,25 @@
-import React from "react";
+import React, { useState } from "react";
 import {NavLink} from 'react-router-dom'
 
 
 
 
 function NavBar(){
+let [dropdown, setDropDown] = useState(true)
+
+
+
+function staffDropDown(e){
+    e.preventDefault()
+    setDropDown(!dropdown)
+    if(dropdown){
+    document.querySelector('.staff_dropdown').style.display = 'flex'}
+
+    else {
+    document.querySelector('.staff_dropdown').style.display = 'none'}
+    }
+
+
 
 
 
@@ -21,8 +36,16 @@ return(
 
 
 <div className="nav">
-    <NavLink exact to='sam'>Sam</NavLink>
-    <NavLink exact to='dante'>Dante</NavLink>
+    <div style={{position:'relative'}}>
+    <NavLink style={{fontSize:'26px', margin:'0 10px', textDecoration:'none'}}exact to='' onClick={(e) => staffDropDown(e)}>Staff</NavLink>
+    <div className="staff_dropdown">
+        <NavLink exact to='sam'>Dr. Sam</NavLink>
+        <NavLink exact to='dante'>Dr. Dante</NavLink>
+        <NavLink exact to='brenda'>Brenda</NavLink>
+    </div>
+
+    </div>
+    {/* <NavLink exact to='dante'>Dante</NavLink> */}
     <NavLink exact to='services'>Services</NavLink>
     <NavLink exact to='new-patient'>New Patient</NavLink>
     <NavLink exact to='contact'>Contact</NavLink>
