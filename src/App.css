@@ -6,6 +6,7 @@
   background-position: center;
   min-width: 100vw;
   min-height:100vh;
+  background-attachment: fixed;
 }
 
 .App-logo {
@@ -169,10 +170,13 @@ background: rgba(232, 240, 254, 1);
 border: 1px solid black;
 margin-bottom: 10px;
 color: black;
+padding-left: 10px;
 
 
 }
 
 .form-holder > form > input::placeholder {
   color: black;
+  /* font-weight: bold; */
+  opacity: 1;
 }
