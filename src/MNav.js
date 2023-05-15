@@ -14,7 +14,7 @@ function MNav(){
     return(
         <>
         <div className='mNav_holder'>
-            <div style={{height:'20px'}}></div>
+            <div style={{height:'0px'}}></div>
             <NavLink exact to='/'>Home</NavLink>
             <NavLink exact to='/services'>Services</NavLink>
             <NavLink exact to='/new-patient'>New Patient</NavLink>
