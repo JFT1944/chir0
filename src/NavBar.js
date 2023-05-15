@@ -4,6 +4,7 @@ import {NavLink} from 'react-router-dom'
 
 
 
+
 function NavBar(){
 let [dropdown, setDropDown] = useState(true)
 
@@ -51,6 +52,13 @@ return(
     <NavLink exact to='contact'>Contact</NavLink>
     <div style={{width:'20px'}}></div>
 </div>
+
+<div className="nav2">
+    <NavLink to='mobile-nav' >
+        <img style={{height:'65px', 'marginRight':'20px'}}src="https://cdn-icons-png.flaticon.com/512/7216/7216128.png" alt="Menu Icon" />
+    </NavLink>
+</div>
+
 </div>
 
 

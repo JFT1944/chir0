@@ -4,6 +4,7 @@ import NavBar from './NavBar'
 import DR from './dr'
 import Home from './home'
 import NewPatient from './newPatient'
+import MNav from './MNav'
 
 
 
@@ -21,6 +22,7 @@ function ChiroPage(){
         <Routes >
             <Route path='/' element={<Home />}/>
             <Route path='/:name' element={<DR />}/>
+            <Route path='/mobile-nav' element={<MNav />}/>
             {/* <Route path='/sam' element={'sam'}/>
             <Route path='/dante' element={'dante'}/> */}
             <Route path='/services' element={'services'}/>
