@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import {BrowserRouter, Route, Routes } from 'react-router-dom'
 import NavBar from './NavBar'
 import DR from './dr'
@@ -9,7 +9,9 @@ import MNav from './MNav'
 
 
 function ChiroPage(){
+    useEffect(() => {
 
+    }, [])
 
 
 
@@ -30,7 +32,7 @@ function ChiroPage(){
             <Route path='/contact' element={'Contact'}/>
     
         </Routes>
-    
+
     
     </BrowserRouter>
     </>
