@@ -213,7 +213,7 @@ padding-left: 10px;
 
 }
 
-@media screen and (width < 900px) {
+@media screen and (max-width: 900px) {
   
 .nav{
   display: none;
