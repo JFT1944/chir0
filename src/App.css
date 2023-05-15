@@ -222,6 +222,12 @@ padding-left: 10px;
 .nav2{
   display: flex;
 }
-
+.doctor_info{
+  padding: 15px;
+  margin: 0;
+}
+.form-holder{
+  width: 100%;
+}
 
 }
