@@ -9,7 +9,7 @@ function NavBar(){
 let [dropdown, setDropDown] = useState(true)
 
 
-
+console.log('navbar')
 
 
 function staffDropDown(e){

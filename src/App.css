@@ -117,7 +117,7 @@ background: rgba(255,255,255, .5);
   display: flex;
   flex-wrap: wrap;
   padding: 75px;
-  background: rgba(0, 0, 0, .1);
+  background: rgba(232, 240, 254, .75);
   backdrop-filter: blur(10px);
   border-radius: 25px;
   margin: 0 75px;
@@ -130,8 +130,8 @@ background: rgba(255,255,255, .5);
 .doc_text{
   padding: 0 50px;
   text-align: left;
-  color: white;
-  text-shadow: 2px 2px black;
+  color: #2a2179;
+  /* text-shadow: 2px 2px black; */
   min-width: 300px;
   width: 50%;
 

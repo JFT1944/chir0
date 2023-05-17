@@ -1,4 +1,4 @@
-import React, {useEffect} from 'react'
+import React, {useEffect, useState} from 'react'
 import {BrowserRouter, Route, Routes } from 'react-router-dom'
 import NavBar from './NavBar'
 import DR from './dr'
@@ -9,10 +9,22 @@ import MNav from './MNav'
 
 
 function ChiroPage(){
-    useEffect(() => {
+ console.log('top component')
+ let [patientForm, setPatientForm] = useState('')
 
-    }, [])
 
+useEffect(() =>{
+    console.log('chirp')
+let pForm = document.getElementById('pant-form')
+console.log(pForm)
+setPatientForm(pForm)
+pForm.remove()
+console.log(patientForm)
+
+
+
+
+}, [])
 
 
     return(
@@ -28,7 +40,7 @@ function ChiroPage(){
             {/* <Route path='/sam' element={'sam'}/>
             <Route path='/dante' element={'dante'}/> */}
             <Route path='/services' element={'services'}/>
-            <Route path='/new-patient' element={<NewPatient />}/>
+            <Route path='/new-patient' element={<NewPatient/>}/>
             <Route path='/contact' element={'Contact'}/>
     
         </Routes>

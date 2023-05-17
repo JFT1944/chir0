@@ -1,47 +1,74 @@
-import React from "react";
+import React, { useEffect, useRef, useState } from "react";
+import {useLocation} from 'react-router-dom'
 
-function NewPatient(){
+function NewPatient(props){
+// let [patientForm, setPaitentForm] = useState()
+let {pForm, setPForm} = props
+let [form, setForm] = useState('')
+    
+console.log({pForm, setPForm})
+let patientForm = useRef()
+    // console.log(this.props.loc)
 
-function formSubmit(e){
-e.preventDefault(e)
-console.log(e.target.form)
-for (let i of e.target.form){
-    // console.log(i.placeholder)
-    // console.log(i.value)
-    console.log(`${i.placeholder}: ${i.value}`)
-}
-}
+    useEffect(() => {
+        // patientForm.current = ''
+        let newSCR = document.createElement('script')
+        newSCR.setAttribute('charSet', 'utf-8')
+        newSCR.setAttribute('src', 'https://cdn.reviewwave.com/js/reviewwave.js')
+        newSCR.setAttribute('data-id', '730486218c737f42429eaf7b9c955d9556d0')
+        document.querySelector('#patient-form').append(newSCR)
+        console.log({newSCR:newSCR})
+        patientForm.current = newSCR
+        
+        // console.log({form:form})
+        // if(!form){
+        // setForm(document.getElementById('patient-form'))}
+        // console.log(patientForm.current.children)
+
+
+        // if(document.getElementById('patient-form').children.length > 1){
+        // if(!form){
+        // patientForm.current = document.getElementById('patient-form')}
+        // // }
+        // setForm(true)
+        
+    
+    
+    }, [])
+// useEffect(() =>{
+// //     console.log(document.getElementById('patient-form').childNodes)
+// // setForm(document.getElementById('patient-form'))
+// }, [])
+
+// console.log(patientForm.current)
+
+
+// function formSubmit(e){
+// e.preventDefault(e)
+
+
+console.log(form)
 
 
 
-    return(
-        <>
-        <div className="form-holder-holder">
-            <div className="form-holder doctor_info">
-        <form>
-            <h2>Tell Us About Yourself</h2>
-            
-            <input type={'text'} placeholder='First Name' name='fName' required/> 
-            <input type={'text'} placeholder='Last Name' required/> 
-            <input type={'text'} placeholder='Street Address' required/> 
-            <input type={'text'} placeholder='City' required/> 
-            <input type={'text'} placeholder='State' required/> 
-            <input type={'text'} placeholder='Zip Code' required/> 
-            <input type={'text'} placeholder='Phone' required/> 
-            <input type={'text'} placeholder='Birthday' required/> 
-            <input type={'text'} placeholder='Gender' required/> 
-            <input type={'email'} placeholder='Email' required/> 
-            <br />
-            <br />
-            <br />
-            <h2>Reason For This Visit</h2>
-            <input type={'text'} placeholder='Is this pain to:' required/> 
-            <input style={{background:'rgba(145, 199, 147, 50%)'}} type={'submit'} onClick={(e) => formSubmit(e)}/>
-        </form>
+    if (form){
+        return(
+            <>
+            {console.log('second')}
+            <div id='patient-form' className="doctor_info">
+                {/* <h1>Please reload page for</h1> */}
             </div>
-        </div>
-        </>
-    )
+            </>
+        )
+    }else{
+        return(
+            <><div id='patient-form' className="doctor_info" data-id="730486218c737f42429eaf7b9c955d9556d0">
+            {/* <script charset="utf-8" src="https://cdn.reviewwave.com/js/reviewwave.js" data-id="730486218c737f42429eaf7b9c955d9556d0"></script> */}
+            </div></>)
+    }
+
+
+   
 }
 
 
