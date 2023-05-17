@@ -120,7 +120,7 @@ background: rgba(255,255,255, .5);
   background: rgba(232, 240, 254, .75);
   backdrop-filter: blur(10px);
   border-radius: 25px;
-  margin: 0 75px;
+  margin: 20px 75px;
 }
 .doc_text > h1{
   font-size: 2.7em;
@@ -245,4 +245,34 @@ padding-left: 10px;
 
 .delete{
   /* display: none  !important; */
+}
+.service_holder{
+  width: 30vw;
+  background: rgba(232, 240, 254, .75);
+  backdrop-filter: blur(10px);
+  border-radius: 25px;
+  min-width: 325px;
+  min-height: 600px;
+  height: fit-content;
+  padding:20px;
+  color: #2a2179;
+  margin: 20px 0;
+}
+.service_holder_holder{
+  width: 100vw;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.service_holder > ul {
+  text-align: left;
+}
+.service_holder > h4 {
+  text-align: justify;
+
+}
+.service_holder > img {
+  width: 95%;
+  border-radius: 15px;
+  height: 250px;
 }

@@ -1,6 +1,6 @@
 import React from "react";
 import { useParams } from "react-router-dom";
-import staffInfo from "./db";
+import {staffInfo} from "./db";
 
 
 

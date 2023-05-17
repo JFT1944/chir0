@@ -4,6 +4,8 @@
 //     brenda:{}
 // }
 
+let falseImage = 'https://media.istockphoto.com/id/1226328537/vector/image-place-holder-with-a-gray-camera-icon.jpg?s=170667a&w=0&k=20&c=iLBbpRp4D_dbwg39-pubCdie04H1L0X1hPB1A2hJyjU='
+
 let staffInfo = {
   sam: {
     name: "Dr. Sam Kashani",
@@ -29,11 +31,11 @@ let staffInfo = {
     bio: ``,
     photo: "",
   },
-  assistants: { name: "", position: "", bio: ``, photo: "" },
+  assistants: { name: "Vinny Gurgigno, Nathan Kashani, Laila Kashani ", position: "Assistant Rehab Therapists", bio: `Vinny, Nathan and Laila Kashani are all in school and work at Pro Healthcare part  time. All of them love helping patients and seeing the results of Rehab Therapy.  Here at Pro Healthcare, we are family.`, photo: "" },
 };
 
 let serviceInfo = {
-  "Chiropractic Care": {
+  "chiropracticcare": {
     name: "Chiropractic Care",
     description: "",
     bullets: [
@@ -53,9 +55,10 @@ let serviceInfo = {
       "Sprains & Strains",
       "Fibromyalgia",
       "Scoliosis",
-    ],
+    ], 
+    picture:falseImage,
   },
-  "Auto Accidents": {
+  "autoaccidents": {
     name: "Auto Accidents",
     description: `Injured in an Accident? 
     Post-traumatic Injury from auto accidents is our specialty. If you’ve been in an auto  accident, call our office immediately to be examined. Delaying a visit can worsen  an injury and prolong the recovery process.`,
@@ -65,8 +68,9 @@ let serviceInfo = {
       "Back Pain Shoulder Pain",
       "Herniated Disc(s) Headaches",
     ],
+    picture:falseImage
   },
-  "Rehab Therapy": {
+  "rehabtherapy": {
     name: "Rehab Therapy",
     description: `We specializes in providing rehabilitation services to patients with musculoskeletal conditions or injuries.  They work in conjunction with chiropractors or other healthcare providers to develop and implement person alized treatment plans to help patients recover from their injuries and immediately improve their overall  physical function. Rehabilitation Exercises: Chiropractic rehab therapists guide patients through specific ex ercises and movements designed to strengthen muscles, improve flexibility, enhance coordination, and re store proper joint function. These exercises may include stretching, resistance training, balance training, and  core stabilization exercises. 
   `,
@@ -79,7 +83,9 @@ let serviceInfo = {
       " Helps manage and prevent health issues due to aging",
       " Ensures proper kinetic chain firing",
     ],
+    picture:falseImage
   },
 };
 
-export default staffInfo;
+export {staffInfo, serviceInfo};
+

@@ -5,6 +5,7 @@ import DR from './dr'
 import Home from './home'
 import NewPatient from './newPatient'
 import MNav from './MNav'
+import Services from './services'
 
 
 
@@ -40,7 +41,7 @@ console.log(patientForm)
             <Route path='/mobile-nav' element={<MNav />}/>
             {/* <Route path='/sam' element={'sam'}/>
             <Route path='/dante' element={'dante'}/> */}
-            <Route path='/services' element={'services'}/>
+            <Route path='/services' element={<Services />}/>
             <Route path='/new-patient' element={<NewPatient patientForm={patientForm}/>}/>
             <Route path='/contact' element={'Contact'}/>
     
