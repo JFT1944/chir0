@@ -11,12 +11,14 @@ if(name !== 'sam'){
     if(name !== 'dante'){
     console.log(name)
         if(name !== 'brenda'){
-            return (
+            if(name !== 'assistants'){return (
                 <>
                 <h2>Oops... No Doctors Here</h2>
                 <h4>Please Return Home</h4>
                 </>
                 )
+
+            }
         }
 }
 }
@@ -26,7 +28,7 @@ if(name !== 'sam'){
     <>
     <div className="doctor_info">
     <div>
-        <img className='profile_img' src="https://media.istockphoto.com/id/1147544807/vector/thumbnail-image-vector-graphic.jpg?s=612x612&w=0&k=20&c=rnCKVbdxqkjlcs3xH87-9gocETqpspHFXu5dIGB4wuM=" alt="" />
+        <img className='profile_img' src={staffInfo[name].photo} alt="" />
     </div>
 
     <div className="doc_text">

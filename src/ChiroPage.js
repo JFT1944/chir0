@@ -8,25 +8,26 @@ import MNav from './MNav'
 
 
 
-function ChiroPage(){
- console.log('top component')
- let [patientForm, setPatientForm] = useState('')
+function ChiroPage(props){
+//  console.log('top component')
+ let {patientForm, setPatientForm} = props
 
 
-useEffect(() =>{
-    console.log('chirp')
-let pForm = document.getElementById('pant-form')
-console.log(pForm)
-setPatientForm(pForm)
-pForm.remove()
+// useEffect(() =>{
+//     console.log('chirp')
+// let pForm = document.getElementById('pant-form')
+// console.log(pForm)
+// setPatientForm(pForm)
+// pForm.remove()
+// console.log(patientForm)
+
+
+
+
+// }, [])
+
+
 console.log(patientForm)
-
-
-
-
-}, [])
-
-
     return(
     
     
@@ -40,7 +41,7 @@ console.log(patientForm)
             {/* <Route path='/sam' element={'sam'}/>
             <Route path='/dante' element={'dante'}/> */}
             <Route path='/services' element={'services'}/>
-            <Route path='/new-patient' element={<NewPatient/>}/>
+            <Route path='/new-patient' element={<NewPatient patientForm={patientForm}/>}/>
             <Route path='/contact' element={'Contact'}/>
     
         </Routes>

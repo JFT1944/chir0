@@ -1,24 +1,38 @@
 import React, { useEffect, useRef, useState } from "react";
-import {useLocation} from 'react-router-dom'
+import {useLocation, Navigate} from 'react-router-dom'
 
 function NewPatient(props){
 // let [patientForm, setPaitentForm] = useState()
-let {pForm, setPForm} = props
+let {pForm, setPForm, patientForm} = props
 let [form, setForm] = useState('')
+
     
 console.log({pForm, setPForm})
-let patientForm = useRef()
+// let patientForm = useRef()
     // console.log(this.props.loc)
 
     useEffect(() => {
         // patientForm.current = ''
+        
+        console.log({patientForm:patientForm})
+        if(!patientForm){
+            console.log('first')
+        //  navigate('/')
+        // document.querySelector('#patient-form').append('Form Error')
         let newSCR = document.createElement('script')
         newSCR.setAttribute('charSet', 'utf-8')
         newSCR.setAttribute('src', 'https://cdn.reviewwave.com/js/reviewwave.js')
         newSCR.setAttribute('data-id', '730486218c737f42429eaf7b9c955d9556d0')
         document.querySelector('#patient-form').append(newSCR)
-        console.log({newSCR:newSCR})
-        patientForm.current = newSCR
+        
+        } else{
+            console.log('second')
+            // console.log(patientForm.classList.remove('delete'))
+            document.querySelector('#patient-form').append(patientForm)
+        }
+        
+        // console.log({newSCR:newSCR})
+        // patientForm.current = newSCR
         
         // console.log({form:form})
         // if(!form){
