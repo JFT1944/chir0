@@ -37,7 +37,7 @@ if(name !== 'sam'){
     <div className="doc_text">
     <h1>{staffInfo[name].name}</h1>
     <h3>{staffInfo[name].position}</h3>
-    <p>{staffInfo[name].bio}</p>
+    <div>{staffInfo[name].bio.map((x) => <p>{x}</p>)}</div>
     </div>
     </div>
     

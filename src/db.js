@@ -12,33 +12,35 @@ let staffInfo = {
   sam: {
     name: "Sam Kashani, DC",
     position: "Chiropractor",
-    bio: `After earning his bachelor's degree in Biology from the University of North Carolina at Greensboro in Greensboro, North Carolina, Dr. Sam Kashani went on to complete his Doctor of Chiropractic from Life University in Marietta, Georgia in 2001. Dedicated to educating and serving his community, Dr. Sam is committed to helping each of his patients discover their full potential with the knowledge he has gained over the years.  
-    Now co-owners of Pro Healthcare with Dr. Dante Gurgigno, they are dedicated to helping individuals with their healthcare needs. 
-    Dr. Sam, his wife and two children currently live in the Woodstock, Georgia. Dr. Sam is very active in his community and surrounding areas. 
-    His favorite quote is from B.J. Palmer: “The power that made the body will heal the  body." 
-    `,
+    bio: [`After earning his bachelor's degree in Biology from the University of North Carolina at Greensboro in Greensboro, North Carolina, Dr. Sam Kashani went on to complete his Doctor of Chiropractic from Life University in Marietta, Georgia in 2001. Dedicated to educating and serving his community, Dr. Sam is committed to helping each of his patients discover their full potential with the knowledge he has gained over the years.  
+    Now co-owners of Pro Healthcare with Dr. Dante Gurgigno, they are dedicated to helping individuals with their healthcare needs.`,
+    
+    `Dr. Sam, his wife and two children currently live in the Woodstock, Georgia. Dr. Sam is very active in his community and surrounding areas.`,
+
+    `His favorite quote is from B.J. Palmer: “The power that made the body will heal the  body." 
+    `],
     photo: img,
   },
   dante: {
     name: "Dante Gurgigno, DC",
     position: "Chiropractor, Rehab Therapist",
-    bio: `Dante Gurgigno Jr is a dedicated and compassionate healthcare professional who goes above and beyond to pro vide exceptional care for his patients. With a genuine passion for helping others, Dante has made it his mission to  ensure the well-being and comfort of each individual he serves. He believes in treating patients as unique individu als, taking into account their specific needs, concerns, and goals. Dante takes the time to listen attentively, building  a strong professional relationship with his patients based on trust, empathy, and respect. He firmly believes that  patient education is an essential component of healthcare, empowering individuals to make informed decisions  about their well-being. Dante also enjoys sports such as weight lifting, football, and basketball. Dante played foot ball since 5th grade and played all four years at Lassiter high school. Look up and you might see Dante soaring the  skies From a young age Dante's fascination with airplanes and the dream of flight captured his imagination. He pur sued his passion by earning his pilot's license at the earliest opportunity and hasn't looked back since. Fuelled by  his enthusiasm and an unwavering desire to take to the skies, he embarked on countless hours of training, honing  his skills and building his knowledge base.  
-    `,
+    bio: [`Dante Gurgigno Jr is a dedicated and compassionate healthcare professional who goes above and beyond to pro vide exceptional care for his patients. With a genuine passion for helping others, Dante has made it his mission to  ensure the well-being and comfort of each individual he serves. He believes in treating patients as unique individu als, taking into account their specific needs, concerns, and goals. Dante takes the time to listen attentively, building  a strong professional relationship with his patients based on trust, empathy, and respect. He firmly believes that  patient education is an essential component of healthcare, empowering individuals to make informed decisions  about their well-being. Dante also enjoys sports such as weight lifting, football, and basketball. Dante played foot ball since 5th grade and played all four years at Lassiter high school. Look up and you might see Dante soaring the  skies From a young age Dante's fascination with airplanes and the dream of flight captured his imagination. He pur sued his passion by earning his pilot's license at the earliest opportunity and hasn't looked back since. Fuelled by  his enthusiasm and an unwavering desire to take to the skies, he embarked on countless hours of training, honing  his skills and building his knowledge base.  
+    `],
     photo: "https://lh3.googleusercontent.com/u/0/docs/ADP-6oH8gvfnoEr9nArMMsCC78bYyQtYfLUyLVq_XFkivYfqQ1ZqmT8qxFrXiYomq8F5pn2Ib4tIp2jKRg4SCIoj0UiKU9eANm_bEpCeQ5LhsniWWnUDp0pwUgscHR1RoER00oCMrUCY6r_akhrFcQUNOFq1kjOXOTzywSip1MlTnlLOXVrpGzr8dWIb_YI8T-3TJDCRokJwwOvp-6w0zXmzJ3vJLYRV8ep20e2ABe7ryKrIoas_1rtSdhYGU4sloQP1E5bp58i7BgoFfjyuvAVxG0XpJm4ZRXfhcQLiNMyz-QvZrfMzxE5hzaMraTybNecEucDL8DYnCBdNPtgExpIFeRdz_TaVeW7WvyfIGSWBobpZpsQ_06xgwaTpqXVRqEhgy2sHTBe9s_fzAJAKRRa6WcKtBE-nggmJrgxM3IxWInjBUDAdkyQbTKVy6m0x06_9pby3nXFsJmt0Xu7BgOLQW7ZHOdQE8-GuFQVV5LKfNHD9COeWNSgQ3UOPyuj8rI6EEeI4nqM9MWbG5a6NvHFJgkr_UKrenP18TjRBzbyhPQz5CAXwIBS0Gy47selJrRWle0Ujms6WO_A-j8t9leIt9tcxbN6O0q_dylpt8RTJA1XcZXmFoODgA2zi13YJ0GAmRVnT8H_2sNap35AKhmFjh2v9xounOeV0U7ckp_KgGvbL1JbA64CNJEDpsLV9Y7eHZcT0xzL_QViJgKWlmubzKyCQj94ur2ltQ9CzeXEmhnnqHUKcvcclxR2JV9gbzSKNJVGDorQv8jEu8gNq_w9w4_o5zZKN2Jea4mYF0gRUYeJnsc6YFTMp7zxAjXMi1snJb0Dr-38FwO7uPT9gamYec-hbOk4oYlVRh3FX_elkpsI3e0IbJEkU5BbibtNHEpF9MIS4CHBT2sJ1yIgG2Nc0ZYc",
   },
   brenda: {
     name: "Brenda Velez",
     position: "Front Office Manager",
-    bio: ``,
+    bio: [``],
     photo: "",
   },
   dantejr: {
     name: "DANTE GURGIGNO, JR ",
     position: "Rehab Therapist",
-    bio: `Dante Gurgigno Jr is a dedicated and compassionate healthcare professional who goes above and beyond to pro vide exceptional care for his patients. With a genuine passion for helping others, Dante has made it his mission to  ensure the well-being and comfort of each individual he serves. He believes in treating patients as unique individu als, taking into account their specific needs, concerns, and goals. Dante takes the time to listen attentively, building  a strong professional relationship with his patients based on trust, empathy, and respect. He firmly believes that  patient education is an essential component of healthcare, empowering individuals to make informed decisions  about their well-being. Dante also enjoys sports such as weight lifting, football, and basketball. Dante played foot ball since 5th grade and played all four years at Lassiter high school. Look up and you might see Dante soaring the  skies From a young age Dante's fascination with airplanes and the dream of flight captured his imagination. He pur sued his passion by earning his pilot's license at the earliest opportunity and hasn't looked back since. Fuelled by  his enthusiasm and an unwavering desire to take to the skies, he embarked on countless hours of training, honing  his skills and building his knowledge base. `,
+    bio: [`Dante Gurgigno Jr is a dedicated and compassionate healthcare professional who goes above and beyond to pro vide exceptional care for his patients. With a genuine passion for helping others, Dante has made it his mission to  ensure the well-being and comfort of each individual he serves. He believes in treating patients as unique individu als, taking into account their specific needs, concerns, and goals. Dante takes the time to listen attentively, building  a strong professional relationship with his patients based on trust, empathy, and respect. He firmly believes that  patient education is an essential component of healthcare, empowering individuals to make informed decisions  about their well-being. Dante also enjoys sports such as weight lifting, football, and basketball. Dante played foot ball since 5th grade and played all four years at Lassiter high school. Look up and you might see Dante soaring the  skies From a young age Dante's fascination with airplanes and the dream of flight captured his imagination. He pur sued his passion by earning his pilot's license at the earliest opportunity and hasn't looked back since. Fuelled by  his enthusiasm and an unwavering desire to take to the skies, he embarked on countless hours of training, honing  his skills and building his knowledge base. `],
     photo: "",
   },
-  assistants: { name: "Vinny Gurgigno, Nathan Kashani, Laila Kashani ", position: "Assistant Rehab Therapists", bio: `Vinny, Nathan and Laila Kashani are all in school and work at Pro Healthcare part  time. All of them love helping patients and seeing the results of Rehab Therapy.  Here at Pro Healthcare, we are family.`, photo: "" },
+  assistants: { name: "Vinny Gurgigno, Nathan Kashani, Laila Kashani ", position: "Assistant Rehab Therapists", bio: [`Vinny, Nathan and Laila Kashani are all in school and work at Pro Healthcare part  time. All of them love helping patients and seeing the results of Rehab Therapy.  Here at Pro Healthcare, we are family.`], photo: "" },
 };
 
 let serviceInfo = {
