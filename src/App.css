@@ -257,12 +257,12 @@ padding-left: 10px;
   height: fit-content;
   padding:20px;
   color: #2a2179;
-  margin: 20px 0;
+  margin: 20px 10px;
 }
 .service_holder_holder{
   width: 100vw;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   flex-wrap: wrap;
 }
 .service_holder > ul {
