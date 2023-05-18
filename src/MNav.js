@@ -18,7 +18,7 @@ function MNav(){
             <NavLink exact to='/'>Home</NavLink>
             <NavLink exact to='/services'>Services</NavLink>
             <NavLink exact to='/new-patient'>New Patient</NavLink>
-            <NavLink exact to='/contact'>Contact</NavLink>
+            <NavLink exact to='/personal-injury'>Forms</NavLink>
             <NavLink exact to='/sam'>Dr. Sam</NavLink>
             <NavLink exact to='/dante'>Dr. Dante</NavLink>
             <NavLink exact to='/brenda'>Brenda</NavLink>

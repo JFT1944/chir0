@@ -29,7 +29,7 @@ useEffect(() => {
         <>
         
         <div id="piFormHolder" className="doctor_info">
-        <iframe style={{width:'100%', border:'none', height:'900px'}} title="patient_form" src="../patientForm.html" />
+        <iframe style={{width:'100%', border:'none', height:'900px'}} title="patient_form" src="../pIForm.html" />
         
         
         {/* <h2>If form is unavailable... Please reload page. </h2> */}
