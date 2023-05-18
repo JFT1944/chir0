@@ -5,32 +5,32 @@ import ChiroPage from './ChiroPage';
 import './App.css';
 
 function App() {
-  let [patientForm, setPatientForm] = useState()
-  let [piForm, setPiForm] = useState()
+  // let [patientForm, setPatientForm] = useState()
+  // let [piForm, setPiForm] = useState()
 
   useEffect(() =>{
-    try {
-      console.log('chirp')
-let pForm = document.getElementById('pant-form')
-console.log(pForm)
-setPatientForm(pForm)
-localStorage.setItem('patientForm', JSON.stringify(pForm) )
-pForm.remove()
-console.log(patientForm)
-    } catch (error) {
-      console.log(error)
-    }
-// *******************************
-try {
-  let pIForm = document.getElementById('pi-form')
+//     try {
+//       console.log('chirp')
+// let pForm = document.getElementById('pant-form')
+// console.log(pForm)
+// setPatientForm(pForm)
+// localStorage.setItem('patientForm', JSON.stringify(pForm) )
+// pForm.remove()
+// console.log(patientForm)
+//     } catch (error) {
+//       console.log(error)
+//     }
+// // *******************************
+// try {
+//   let pIForm = document.getElementById('pi-form')
 
-  setPiForm(pIForm)
-  pIForm.remove()
+//   setPiForm(pIForm)
+//   pIForm.remove()
 
 
-} catch (error) {
-  console.log(error)
-}
+// } catch (error) {
+//   console.log(error)
+// }
 
 
 
@@ -43,7 +43,7 @@ try {
   return (
     
     <div className="App">
-      <ChiroPage patientForm={patientForm} setPatientForm={setPatientForm} piForm={piForm}/>
+      <ChiroPage />
     </div>
   );
 }
