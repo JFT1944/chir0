@@ -69,14 +69,14 @@ console.log(form)
         return(
             <>
             {console.log('second')}
-            <div id='patient-form' className="doctor_info">
+            <div id='patient-form' className="doctor_info" style={{justifyContent:'center'}}>
                 {/* <h1>Please reload page for</h1> */}
             </div>
             </>
         )
     }else{
         return(
-            <><div id='patient-form' className="doctor_info" data-id="730486218c737f42429eaf7b9c955d9556d0">
+            <><div id='patient-form' className="doctor_info" data-id="730486218c737f42429eaf7b9c955d9556d0" style={{justifyContent:'center'}}>
             {/* <script charset="utf-8" src="https://cdn.reviewwave.com/js/reviewwave.js" data-id="730486218c737f42429eaf7b9c955d9556d0"></script> */}
             </div></>)
     }

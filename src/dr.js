@@ -11,12 +11,15 @@ if(name !== 'sam'){
     if(name !== 'dante'){
     console.log(name)
         if(name !== 'brenda'){
-            if(name !== 'assistants'){return (
-                <>
-                <h2>Oops... No Doctors Here</h2>
-                <h4>Please Return Home</h4>
-                </>
-                )
+            if(name !== 'assistants'){
+                if(name !== 'dantejr'){
+                    return (
+                        <>
+                        <h2>Oops... No Doctors Here</h2>
+                        <h4>Please Return Home</h4>
+                        </>
+                        )
+                }
 
             }
         }

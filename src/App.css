@@ -120,7 +120,8 @@ background: rgba(255,255,255, .5);
   background: rgba(232, 240, 254, .75);
   backdrop-filter: blur(10px);
   border-radius: 25px;
-  margin: 20px 75px;
+  margin: 0 75px;
+  margin-top: 20px;
 }
 .doc_text > h1{
   font-size: 2.7em;
@@ -247,7 +248,7 @@ padding-left: 10px;
   /* display: none  !important; */
 }
 .service_holder{
-  width: 30vw;
+  width: 27vw;
   background: rgba(232, 240, 254, .75);
   backdrop-filter: blur(10px);
   border-radius: 25px;
@@ -275,4 +276,32 @@ padding-left: 10px;
   width: 95%;
   border-radius: 15px;
   height: 250px;
+}
+
+.extended{
+  flex-direction: column;
+  color: #2a2179;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.extended > h1 {
+  margin: 10px;
+}
+.extended > h3 {
+  margin: 10px;
+}
+.extended > h4 {
+  margin: 10px;
+}
+
+.buttons_holder{
+  width: 300px;
+  height: 300px;
+  margin: 5px;
+  /* background: black; */
+  min-width: 300px;
+  display: flex;
+  justify-content: center;
+  border-radius: 25px;
+  border: 3px solid #2a2179;
 }
