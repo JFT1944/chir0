@@ -4,19 +4,20 @@
 //     brenda:{}
 // }
 
+let img = 'https://lh3.googleusercontent.com/u/0/docs/ADP-6oG5dxaqqoya2hUau4Dpml2uNMjJZjDhd8pYZekcYR1e-0KA1y1c20xYsiFf0ufJsLsMWG_prGU5kr-bp2V_sf0vaN4AH8YzO2y6OKNOut1SNbJd1TrrdWeXVs0Sj7kjWpm4vt6nFKV70EMbc6CKrTvMqx8apeMQ8pZcoVqbE9PETQoDKu3IfrI5FaftlOttjOwafyJl5tUDMEePIhkXZEQte0IEldmOk8HPqECaeFWXfCHnsZHiKRyP3lSN6s6kf9cAWWfnjMAShqEwyOWPt3RMnFpCUsZrnC5Vcz8AOT_MCipiRVDu39alIRO9kqVUf8mQbW2SPSNnga8JLQyqjJp2BoTZa7h8yiGv8E7sNN5og31Q_5tdPw98XiPvNOIyHby1m0mWG5JaBze997WAA68sLvO1dJk4bkiZdlMTvXJVISRNKJUv1Fn3YShYlBx7pqD--Tz8Mht5THQUrvnW_tiq2wkvDx4thwk3HRaPlnmlvz6HgbeH7t4NtZ-MzR16z9rlnYuLO-HszRlyy_oNw-lakBYwfivddSGlytPuoqupy_Limpx-weOZN8MKahM7XKjPJuoTXRR7QGWSbBsUtec4iRUBf-YiE7uHZsoqNHf13Oq-azc9Ppz618xSbkxZT0jQPDGknwnuJcp8J_tHy7EJKX7XTDlHBYrUq0Dh3Eezj3ZKKCklOmlvKncYizLUDXnl9Qam5U7Qikrq5OEzuG9lLKqA5mJgfM1_GM2CdhJanSpWRiNzoR4NHladi2KK5QM7e7fVyjf2gMc39Mq5g5BkA1SQHwqmkmdEK2CE5kwCfKsl1Rd9itCmO5dM4jRwGUXXf1d7SIJNe7nbQ65n8uBBwrRn44BC_K_dSg7O16n1rjjTv1hUTueHGY6oKK0eOGY2KR8Twq7vmNp2iXch5JQ'
+
 let falseImage = 'https://media.istockphoto.com/id/1226328537/vector/image-place-holder-with-a-gray-camera-icon.jpg?s=170667a&w=0&k=20&c=iLBbpRp4D_dbwg39-pubCdie04H1L0X1hPB1A2hJyjU='
 
 let staffInfo = {
   sam: {
     name: "Sam Kashani, DC",
     position: "Chiropractor",
-    bio: `After earning his bachelor's degree in Biology from the University of North Carolina at  Greensboro in Greensboro, North Carolina, Dr. Sam Kashani went on to complete his  Doctor of Chiropractic from Life University in Marietta, Georgia in 2001. Dedicated to  educating and serving his community, Dr. Sam is committed to helping each of his pa tients discover their full potential with the knowledge he has gained over the years.  
-    Now co-owners of Pro Healthcare with Dr. Dante Gurgigno, they are dedicated to help ing individuals with their healthcare needs. 
-    <br>
-    Dr. Sam, his wife and two children currently lives in the Woodstock, Georgia. Dr. Sam  is very active in his community and surrounding areas. 
+    bio: `After earning his bachelor's degree in Biology from the University of North Carolina at Greensboro in Greensboro, North Carolina, Dr. Sam Kashani went on to complete his Doctor of Chiropractic from Life University in Marietta, Georgia in 2001. Dedicated to educating and serving his community, Dr. Sam is committed to helping each of his patients discover their full potential with the knowledge he has gained over the years.  
+    Now co-owners of Pro Healthcare with Dr. Dante Gurgigno, they are dedicated to helping individuals with their healthcare needs. 
+    Dr. Sam, his wife and two children currently live in the Woodstock, Georgia. Dr. Sam is very active in his community and surrounding areas. 
     His favorite quote is from B.J. Palmer: “The power that made the body will heal the  body." 
     `,
-    photo: "https://lh3.googleusercontent.com/u/0/docs/ADP-6oFPM0wq_PUrO7kGcSd3KvyLyR1yhXy7bEGs1dlOPPmh3LSBk8EA8Clzj3--ox5dXWSbzfdBd6_pCAGDLo3mtN5j8owA5RerWCukUgpQAopvyq2Koldvr8i3GkJCqjzsdcUdk2ApXaUqTwYt2iyb9fxvNu44shrhV6d4Juf5KG-ZlEsiAtcUNsfyHW7JhAtzXbIceWYUfz0OBb0_RrhNDJMeM2q9pv0PYH75E7vE-n5pufyIzpI02RemWgT6i8DyE_w7ITaHWcdM-iVg511MFrsbn-4VttA14OfKwAFcfHzyHLUJkmELSjfhM5jXbeDlEbJVteIYKHyKxUc6Tcy8-ZoCcimfMLOPwaHKUGGuy3T5IKtHeQXj3b3gmUqpo9qcoALcIKlYYJ3W3rXjuCwKJb3bxi0UGqkgirlxlh1QFYTnYgJs8xo1GigWNzy-Ruk6JuAdpSOsT2PCbbUc4IZ_a6yTay7dbTtiXFTzce0SKBosuceoyoD9lx3TuFR2gvn0d7KOYplTiJPXW3XcmRABvk-sJbBUEcXdcpUn2vXwhChHYx07SYr7Nvtjv-mytq5tPhJuwBxRGuqrtrY5vOQ2KH810m2Dq8zUdjn0hVvPGcAAC0IJSpAAQvAHJF-kvXeV7h6UEepyXvQ-YqZjSpFfYaVgu9pAIwevyFK-U-aCHCNTp7BUbPNRasTTXuM4CedHDKw10V2KlWPhOT5nMyU8OXu_MwF1lNRjTb6ZL9Gczy44f7KeRY7NTmK7O9C0EntbZKsCW_SiJbXiOT0oNsjbBb_qU-DoSv_HWHVuAtbtVcrpzJVOlYGnmdmUPaaCpBzb0B7iCgJHmPRWZjG37k64vqnkvuXo4M8jOTrAzGBVJPgs2_oDtpk2oM9BwlbgivARk-HeKmuntGz_yMSvnmS_mJ0",
+    photo: img,
   },
   dante: {
     name: "Dante Gurgigno, DC",
