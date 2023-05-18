@@ -6,6 +6,7 @@ import './App.css';
 
 function App() {
   let [patientForm, setPatientForm] = useState()
+  let [piForm, setPiForm] = useState()
 
   useEffect(() =>{
     try {
@@ -19,6 +20,19 @@ console.log(patientForm)
     } catch (error) {
       console.log(error)
     }
+// *******************************
+try {
+  let pIForm = document.getElementById('pi-form')
+
+  setPiForm(pIForm)
+  pIForm.remove()
+
+
+} catch (error) {
+  console.log(error)
+}
+
+
 
 
 
@@ -29,7 +43,7 @@ console.log(patientForm)
   return (
     
     <div className="App">
-      <ChiroPage patientForm={patientForm} setPatientForm={setPatientForm}/>
+      <ChiroPage patientForm={patientForm} setPatientForm={setPatientForm} piForm={piForm}/>
     </div>
   );
 }

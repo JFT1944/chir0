@@ -6,12 +6,13 @@ import Home from './home'
 import NewPatient from './newPatient'
 import MNav from './MNav'
 import Services from './services'
+import Contact from './contact'
 
 
 
 function ChiroPage(props){
 //  console.log('top component')
- let {patientForm, setPatientForm} = props
+ let {patientForm, setPatientForm, piForm} = props
 
 
 // useEffect(() =>{
@@ -43,7 +44,7 @@ console.log(patientForm)
             <Route path='/dante' element={'dante'}/> */}
             <Route path='/services' element={<Services />}/>
             <Route path='/new-patient' element={<NewPatient patientForm={patientForm}/>}/>
-            <Route path='/contact' element={'Contact'}/>
+            <Route path='/personal-injury' element={<Contact piForm={piForm}/>}/>
     
         </Routes>
 

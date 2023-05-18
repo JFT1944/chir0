@@ -54,7 +54,7 @@ return(
     </div>
     {/* <NavLink exact to='dante'>Dante</NavLink> */}
     
-    <NavLink exact to='contact'>Contact</NavLink>
+    <NavLink exact to='/personal-injury' >Forms</NavLink>
     <div style={{width:'20px'}}></div>
 </div>
 
