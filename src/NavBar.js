@@ -46,9 +46,9 @@ return(
     <div className="staff_dropdown">
         <NavLink exact to='dante'>Dr. Dante</NavLink>
         <NavLink exact to='sam'>Dr. Sam</NavLink>
-        <NavLink exact to='brenda'>Brenda</NavLink>
         <NavLink exact to='dantejr'>Dante Jr.</NavLink>
-        <NavLink exact to='assistants'>Assistant Rehab Therapists</NavLink>
+        <NavLink exact to='brenda'>Brenda</NavLink>
+        <NavLink exact to='assistants'>Other Staff</NavLink>
     </div>
 
     </div>
