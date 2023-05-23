@@ -44,8 +44,8 @@ return(
     <div style={{position:'relative'}}>
     <NavLink style={{fontSize:'26px', margin:'0 10px', textDecoration:'none'}}exact to='' onClick={(e) => staffDropDown(e)}>About Us</NavLink>
     <div className="staff_dropdown">
-        <NavLink exact to='sam'>Dr. Sam</NavLink>
         <NavLink exact to='dante'>Dr. Dante</NavLink>
+        <NavLink exact to='sam'>Dr. Sam</NavLink>
         <NavLink exact to='brenda'>Brenda</NavLink>
         <NavLink exact to='dantejr'>Dante Jr.</NavLink>
         <NavLink exact to='assistants'>Assistant Rehab Therapists</NavLink>
