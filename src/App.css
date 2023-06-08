@@ -48,7 +48,7 @@
   display: flex;
   /* justify-content: center; */
   align-items: center;
-  height: fit-content;
+  height: 261px;
   background: rgba(232, 240, 254, .75);
   transition: 'background', 5s, ease-in-out;
   
@@ -69,10 +69,10 @@ background: rgba(255,255,255, .5);
 .nav{
   font-weight: bold;
   display: flex;
-  justify-content: end;
+  justify-content: center;
   position:absolute;
   top: 0;
-  height: 261px;
+  height: 100px;
   width: 100vw;
   align-items: center;
   z-index: 5;
@@ -84,7 +84,7 @@ background: rgba(255,255,255, .5);
   justify-content: end;
   position:absolute;
   top: 0;
-  height: 115px;
+  height: 261px;
   width: 100vw;
   align-items: center;
   z-index: 5;
@@ -308,7 +308,9 @@ padding-left: 10px;
   .nav{
     display: none;
   }
-  
+  .nav_holder{
+    height: 100px;
+  }
   .nav2{
     display: flex;
   }
