@@ -37,14 +37,14 @@ console.log(patientForm)
     <BrowserRouter>
         <NavBar />
         <Routes >
-            <Route path='/' element={<Home />}/>
-            <Route path='/:name' element={<DR />}/>
-            <Route path='/mobile-nav' element={<MNav />}/>
+            <Route path='/' element={''}/>
+            <Route path='/:name' element={''}/>
+            <Route path='/mobile-nav' element={''}/>
             {/* <Route path='/sam' element={'sam'}/>
             <Route path='/dante' element={'dante'}/> */}
-            <Route path='/services' element={<Services />}/>
-            <Route path='/new-patient' element={<NewPatient patientForm={patientForm}/>}/>
-            <Route path='/personal-injury' element={<Contact piForm={piForm}/>}/>
+            <Route path='/services' element={''}/>
+            <Route path='/new-patient' element={''}/>
+            <Route path='/personal-injury' element={''}/>
     
         </Routes>
 
