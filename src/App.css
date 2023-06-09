@@ -35,22 +35,16 @@
   color: #61dafb;
 } */
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
 
 .nav_holder{
   display: flex;
   /* justify-content: center; */
   align-items: center;
+  position: relative;
   height: 261px;
-  background: rgba(232, 240, 254, .75);
+  /* background: rgba(232, 240, 254, .75); */
   transition: 'background', 5s, ease-in-out;
+  justify-content: center;
   
 }
 .nav_holder > div > a{
@@ -63,19 +57,59 @@
 }
 
 .nav_holder :hover{
-background: rgba(255,255,255, .5);
+/* background: rgba(255,255,255, .5); */
 }
 
 .nav{
   font-weight: bold;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
+  max-width: 1100px;
   position:absolute;
-  top: 0;
-  height: 100px;
+  bottom: 10px;
+  height: 50px;
   width: 100vw;
   align-items: center;
   z-index: 5;
+}
+
+.inner_nav_holder{
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  max-width: 1100px;
+  height: 100%;
+  align-items: center;
+  flex-wrap: wrap;
+  /* background: red; */
+  position: relative;
+}
+.logo{
+  height: 100px;
+    position: absolute;
+    left: 0;
+    top: 20px;
+}
+.allday{
+  right: 0;
+  position: absolute;
+  top: 80px;
+  height: 100px;
+}
+.phone_num{
+  font-weight: bold;
+    font-size: 30px;
+    position: absolute;
+    top: 35px;
+    left: 300px;
+    font-weight: bold;
+    color: red;
+}
+.two{
+  color: black;
+  right: 0;
+  font-size: 18px;
+  text-align: end;
 }
 
 .nav2{
@@ -84,16 +118,17 @@ background: rgba(255,255,255, .5);
   justify-content: end;
   position:absolute;
   top: 0;
-  height: 261px;
-  width: 100vw;
+  /* height: ; */
+  /* width: 100vw; */
   align-items: center;
   z-index: 5;
 
 }
 
+
 .nav > a{
   margin: 0 10px;
-  font-size: 26px;
+  font-size: 18px;
   text-decoration: none;
 }
 
