@@ -59,7 +59,10 @@
 .nav_holder :hover{
 /* background: rgba(255,255,255, .5); */
 }
-
+.active{
+  transform: scale(1.2);
+color: red;
+}
 .nav{
   font-weight: bold;
   display: flex;
@@ -132,6 +135,56 @@
   text-decoration: none;
 }
 
+.photo_banner_holder{
+  height: 50vw;
+  min-height: 300px;
+  max-height: 750px;
+}
+.photo_holder{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.photo_banner_text{
+
+}
+.photo_banner_text > a {
+  height: 30vh;
+  max-height: 150px;
+  width: 30vw;
+  min-width: 300px;
+  border-radius: 20px;
+  color: white;
+
+  background: navy;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.photo_banner1{
+  height: 100%;
+  width: 100%;
+  background: red;
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/b/bc/Cervical_Collar_Emergency.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  
+}
+.photo_banner2{
+  height: 100%;
+  width: 100%;
+  background: green;
+}
+.photo_banner3{
+  height: 100%;
+  width: 100%;
+  background: blue;
+}
+.changing_effect{
+  display: none;
+}
+
 .homepage{
   /* background: red; */
   /* background-image: url(https://www.dukehealth.org/sites/default/files/blog_post/thinkstockphotos-480125956.jpg);
@@ -177,7 +230,7 @@
 
 
 a{
-  transition: transform ease-out 1s;
+  transition: transform ease-out .15s;
   color: #2a2179;
 }
 
@@ -379,5 +432,7 @@ padding-left: 10px;
     margin: 10px;
     transform: scale(1.0);
   }
-  
+  .photo_banner_text > a {
+    max-height: 75px;
+  }
   }

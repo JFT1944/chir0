@@ -37,7 +37,7 @@ console.log(patientForm)
     <BrowserRouter>
         <NavBar />
         <Routes >
-            <Route path='/' element={''}/>
+            <Route path='/' element={<Home />}/>
             <Route path='/:name' element={''}/>
             <Route path='/mobile-nav' element={''}/>
             {/* <Route path='/sam' element={'sam'}/>
