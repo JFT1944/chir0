@@ -1,0 +1,78 @@
+
+.info_section_holder{
+    width: 100vw;
+    height: fit-content;
+    justify-content: center;
+    display: flex;
+}
+
+.info_section{
+    width: 100%;
+    max-width: 1200px;
+    display: grid;
+    grid-template-columns: 1fr .5fr;
+    grid-template-rows: 1fr;
+    grid-template-areas:
+    'info1 form1';
+}
+
+.info1{
+    grid-area: info1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 20px;
+    /* background: red; */
+    text-align: left !important;
+}
+.info1 > ul > li{
+    margin-bottom: 20px;
+}
+.info1 > h1{
+    text-align: left;
+}
+
+.form1{
+    grid-area: form1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background: blue;
+}
+.goodCare_banner{
+    width:100vw;
+    height:125px;
+    background: #2a2179;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: gold
+}
+
+.footer_holder{
+    width: 100vw;
+    min-height: 300px;
+    height: fit-content;
+    background: #2a2179;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: gold;
+    
+}
+.footer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+}
+
+.footer_item{
+    width: 27vw;
+    min-width: 300px;
+    height: fit-content;
+}

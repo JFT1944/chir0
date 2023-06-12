@@ -3,6 +3,7 @@ import React, {useEffect, useState} from 'react'
 import ChiroPage from './ChiroPage';
 
 import './App.css';
+import './App2.css';
 
 function App() {
   // let [patientForm, setPatientForm] = useState()

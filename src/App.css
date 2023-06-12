@@ -1,4 +1,5 @@
 .App {
+  line-height: 1.3;
   text-align: center;
   /* background: red; */
   /* background-image: url(https://www.dukehealth.org/sites/default/files/blog_post/thinkstockphotos-480125956.jpg); */
@@ -7,6 +8,12 @@
   min-width: 100vw;
   min-height:100vh;
   background-attachment: fixed;
+}
+p{
+  font-size: 20px;
+}
+li{
+  font-size: 20px;
 }
 
 .App-logo {
@@ -133,6 +140,7 @@ color: red;
   margin: 0 10px;
   font-size: 18px;
   text-decoration: none;
+
 }
 
 .photo_banner_holder{
@@ -155,6 +163,9 @@ color: red;
   min-width: 300px;
   border-radius: 20px;
   color: white;
+  text-decoration: none;
+  font-size: 1.75em;
+  font-weight: bold;
 
   background: navy;
   display: flex;
