@@ -76,3 +76,32 @@
     min-width: 300px;
     height: fit-content;
 }
+
+@media screen and (max-width: 1100px){
+    .info_section{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-template-areas:
+        'info1'
+        'form1';
+    }
+    .info1{
+        justify-content: flex;
+        align-items: center;
+    }
+    .form1{
+        justify-content: center;
+        align-items: center;
+    }
+    .footer_item{
+        width: 90vw;
+        min-width: 300px;
+        height: fit-content;
+    }
+    .phone_num{
+        display: none;
+    }
+    .allday{
+        display: none;
+    }
+}
