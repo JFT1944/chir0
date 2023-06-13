@@ -137,4 +137,10 @@
     .allday{
         display: none;
     }
+    .nav{
+        display: none;
+    }
+    .nav_holder{
+        height: 100px;
+    }
 }

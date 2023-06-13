@@ -10,7 +10,6 @@ let data = [
 
 let image = `https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Car_Crash_7-1-18_2245_%2842450608354%29.jpg/1599px-Car_Crash_7-1-18_2245_%2842450608354%29.jpg?20180728033641`
 
-// https://i.imgur.com/1hrHQWY.png
 function AutoAccidents(){
 
 
