@@ -28,7 +28,7 @@ let data = [
     {title2:`Nerve Damage`, text:[`Nerve damage is usually caused by a compressed or slipped disc in the spinal column. This condition is caused by traumas, like car accidents, or can result just from a physical life style. Chiropractors can help treat this condition and reduce pain while preventing the need for surgery.`]},
 ]
 
-
+let image = 'https://images.unsplash.com/photo-1597764690523-15bea4c581c9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80'
 
 
 function Injuries(){
@@ -38,7 +38,7 @@ function Injuries(){
 
     return(
     <>
-    <Banner1 />
+    <Banner1  image={image} />
     <InfoSection info={data}/>
     
     </>)

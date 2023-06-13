@@ -99,6 +99,9 @@ color: red;
     position: absolute;
     left: 0;
     top: 20px;
+    width: 100vw;
+    max-width: 315px;
+
 }
 .allday{
   right: 0;

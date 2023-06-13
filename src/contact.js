@@ -5,11 +5,11 @@ import Banner1 from "./Banner1"
 function Contact(){
 
 
-
+let image = "https://unsplash.com/photos/CfdzNybONzc"
 
     return(
     <>
-    <Banner1 />
+    <Banner1 image={"https://unsplash.com/photos/CfdzNybONzc"}/>
     
     </>)
 }

@@ -13,7 +13,8 @@ let data=[
     {title2:`We Value Straightforward Communication`, text:[`When you work with us, you work with a chiropractor you feel comfortable communicating with before, during, and after your chiropractic care. Each time you meet with your Pro Healthcare doctor, including your initial consultation, we take the time to answer your questions in an easily understandable way. We take interest in getting to know you and your treatment preferences, and respect your decision-making process.`, `When scheduling an appointment with the experienced professionals at Pro Healthcare, new patients should expect to have all needs understood and met. We address any questions you have before, during, and after your initial chiropractic consultation, and maintain that level of care throughout your entire health and wellness treatment plan. While talking to the chiropractic doctors, you will be able to go over every detail of your accident or injury, the pain symptoms you are experiencing, and the cause of any injuries you are suffering from. We truly strive to listen to all your health concerns while demonstrating compassion and understanding in every element of your care.`, `Pro Healthcare offers free injury consultations to victims suffering from injuries due to personal injury accidents or are dealing with other pain symptoms.`]},
 ]
 
-
+let image = `https://i.imgur.com/1hrHQWY.png
+`
 
 function Chiropractic(){
 
@@ -22,7 +23,7 @@ function Chiropractic(){
 
     return(
     <>
-    <Banner1 />
+    <Banner1 image={image}/>
     <InfoSection info={data}/>
     
     </>)
