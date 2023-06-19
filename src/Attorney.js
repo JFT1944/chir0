@@ -23,7 +23,7 @@ function Attorney(){
 
     return(
     <>
-    <Banner1 image={image}/>
+    <Banner1 image={image} text1={'Attorney Referrals'} />
     <InfoSection info={data}/>
     
     </>)

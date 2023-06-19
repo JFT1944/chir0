@@ -40,7 +40,7 @@
     justify-content: center;
     align-items: center;
     padding: 20px;
-    background: blue;
+    background: #2a2179;
 }
 .goodCare_banner{
     width:100vw;
@@ -79,6 +79,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 10px;
 }
 
 .photo_banner1{
@@ -86,6 +87,22 @@
 }
 .photo_banner_text{
     z-index: 5;
+    width: 80vw;
+    max-width: 1100px;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: white;
+    text-shadow: black 3px 3px 1px;
+
+}
+.photo_banner_text > h1{
+    font-size: clamp(40px, 10vw, 105px);
+    margin-bottom: 0;
+}
+.photo_banner_text > h2{
+    font-size:clamp(22px, 4vw, 45px);
 }
 
 .screen{
@@ -98,22 +115,193 @@
     background: rgba(0, 0, 0, .5);
 }
 
+.form1 {
+justify-content: flex-start;
+height: fit-content;
+border-radius: 10px;
+margin-top: 60px;
+color: gold;
+font-weight: bold;
+font-size: 25px;
+}
+
+.form1 > form{
+display: flex;
+flex-direction: column;
+width: 100%;
+}
+
+.form1 > form > * {
+height: 35px;
+margin:10px 0;
+/* border: 2px solid white; */
+border-radius: 5px;
+font-family: 'Times New Roman', Times, serif;
+}
+.form1 > form > *::placeholder{
+color: black;
+font-size: 16px;
+/* font-weight: bold; */
+}
+
+.about_office{
+    width: 100vw;
+    max-width: 1100px;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    padding: 20px 0;
+    /* background: #2a2179; */
+    align-items: flex-start;
+    align-content: flex-start;
+    color: gold;
+    flex-wrap: wrap;
+}
+
+
+.ao_container{
+    width: 50%;
+    min-width: 300px;
+    /* max-width: 300px; */
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    /* padding: 20px; */
+    /* background: #2a2179; */
+    align-items: center;
+    color: black;
+    
+    
+}
+.ao_container > img{
+    width:100%;
+    max-width: 300px;
+    padding-top: 100px;
+}
+
+
+
+.ao_text{
+display: flex;
+flex-direction: column;
+/* width: 100%; */
+/* max-width: none; */
+/* padding: 10px; */
+text-align: justify;
+}
+/* .ao_text > h1{
+    text-align: start;
+} */
+
+.form_button{
+    border: solid 2px white;
+    width:50px;
+    height: 50px;
+    background: #2a2179;
+    border-radius: 25px;
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    z-index: 100;
+    transition: height .5s ease-in-out, width .5s ease-in-out;
+    animation-name: form_button;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    
+    
+}
+
+@keyframes form_button{
+    0%{
+        transform: scale(1);
+    }
+    90%{
+        transform: scale(1);
+    }
+    92%{
+        transform: scale(1.5);
+    }
+    94%{
+     transform: rotate(10deg);
+    }
+    96%{
+     transform: rotate(-10deg);
+    }
+    98%{
+     transform: rotate(10deg);
+    }
+    100%{
+     transform: rotate(0deg);
+    }
+}
+
+
+
+.form_button > img{
+    transform: translateY(-1px);
+}
+
+.formButton_add{
+    width: 250px;
+    height: 375px;
+    color:white;
+    animation-name:none;
+}
+.formButton_add > ul > li > a{
+    color: white;
+    font-weight: bold;
+    text-align: left;
+    font-size: 19px;
+    text-decoration: none;
+}
+.formButton_add > ul > li{
+    
+    text-align: left;
+    animation-name: liss;
+    animation-duration: 1s;
+}
+@keyframes liss{
+0%{
+    transform:  rotateY(90deg) scale(0.01);
+}
+100%{
+    transform:  rotateY(0deg) scale(1);
+}}
 
 
 
 
 
+.formButton_add > ul > li:hover{
+    color: gold;
+    transition: color .5s ease-in-out;
+}
+.formButton_add > ul > li > a:hover{
+    color: gold;
+    transition: color .5s ease-in-out;
+}
+    
 
 
-
-
-
-
+.footer_item > span > span > p{
+    margin: 0;
+    text-align: left;
+    
+}
+.form_h{
+    margin-bottom: 75px !important;
+}
 
 @media screen and (max-width: 1100px){
     .info_section{
         grid-template-columns: 1fr;
-        grid-template-rows: 1fr 1fr;
+        grid-template-rows: 1fr 810px;
         grid-template-areas:
         'info1'
         'form1';
@@ -123,7 +311,7 @@
         align-items: center;
     }
     .form1{
-        justify-content: center;
+        justify-content: flex-start;
         align-items: center;
     }
     .footer_item{
@@ -143,4 +331,23 @@
     .nav_holder{
         height: 100px;
     }
+    .about_office_reverse{
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+    }
+    .form_h{
+        font-size: clamp(35px, 5vw, 55px);
+    }
+    .footer_holder{
+        margin-top: 150px;
+    }
+}
+@media screen and (min-width:1101px){
+    .form_h{
+        font-size: 36px;
+        margin-bottom: 75px !important;
+    }
+    
 }

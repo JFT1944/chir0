@@ -4,11 +4,11 @@ import InfoSection from "./InfoSection";
 
 
 let data = [
-    {text:[`At our Accident Injury Center in Greensboro, NC, our chiropractors focus on treating injuries to the musculoskeletal system.
+    {text:[`At our Accident Injury Center in Marietta GA, our chiropractors focus on treating injuries to the musculoskeletal system.
     Whether you are suffering from chronic pain or an injury caused in an accident, our chiropractic doctors can get to the root of the problem.
     We will diagnose your condition and begin treating the injury at the source. It is our goal to eliminate your pain and alleviate your injury symptoms fast. 
     We utilize a wide variety of treatment techniques, as to provide the best quality services to our patients. 
-    Below are the accident injuries and pain symptoms that our chiropractors specialize in treating at Cobb Chiropractic Clinic.`]},
+    Below are the accident injuries and pain symptoms that our chiropractors specialize in treating at Pro Healthcare.`]},
     {title2:`Neck Pain`, text:[`Neck pain is one of the most common conditions that our chiropractors treat. It can be caused by a whiplash injury sustained in an auto accident, or another trauma to the cervical spine.
     When soft-tissues become strained or stretched beyond their normal range, individuals could suffer from severe pain and soreness until the injury is treated by a chiropractor. 
     `]},
@@ -38,7 +38,7 @@ function Injuries(){
 
     return(
     <>
-    <Banner1  image={image} />
+    <Banner1  image={image} text1={'Injuries'}/>
     <InfoSection info={data}/>
     
     </>)

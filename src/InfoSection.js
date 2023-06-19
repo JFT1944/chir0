@@ -1,4 +1,5 @@
 import React from "react";
+import SubmitForm from "./SubmitForm";
 
 function InfoSection(props){
 let {info, formInfo} = props
@@ -23,7 +24,9 @@ console.log(info)
         {/* {info.map(x => typeof(x.text[0]) === 'object' ? <ul>{x.text.map(y => <li>{y}</li>)}</ul> : x.text.map(z => <p>{z}</p>) )} */}
         {info.map(x => console.log(x.text))}
         </div>
-        <div className="form1"></div>
+        <div className="form1">
+            <SubmitForm />
+        </div>
             
             </div>
        </div>

@@ -1,5 +1,5 @@
 import React, {useEffect, useState} from 'react'
-import {BrowserRouter, Route, Routes } from 'react-router-dom'
+import {BrowserRouter, Form, Route, Routes } from 'react-router-dom'
 import NavBar from './NavBar'
 import DR from './dr'
 import Home from './home'
@@ -14,6 +14,8 @@ import Chiropractic from './Chiropractic'
 import AutoAccidents from './AutoAccidents'
 import Medical from './Medical'
 import Attorney from './Attorney'
+import FormsButton from './FormsButton'
+import NewPatient2 from './newPatient2'
 
 
 
@@ -56,11 +58,12 @@ console.log(patientForm)
             <Route path='/mobile-nav' element={''}/> */}
             {/* <Route path='/sam' element={'sam'}/>
             <Route path='/dante' element={'dante'}/> */}
-            {/* <Route path='/services' element={''}/>
-            <Route path='/new-patient' element={''}/>
-            <Route path='/personal-injury' element={''}/> */}
+             {/* <Route path='/services' element={''}/> */}
+            <Route path='/patient-form' element={<NewPatient />}/>
+            <Route path='/personal-injury' element={<NewPatient2 />}/> */
     
         </Routes>
+        <FormsButton />
         <Footer />
     
     </BrowserRouter>

@@ -31,6 +31,13 @@ function staffDropDown(e){
 
 
 
+function handleClick(){
+
+}
+
+
+
+
 
 return(
 <>
@@ -56,6 +63,7 @@ return(
     <NavLink exact to='/medical'>Medical</NavLink>
     <NavLink exact to='/attorney'>Attorney Referral</NavLink>
     <NavLink exact to='/contact-us'>Contact Us</NavLink>
+    {/* <NavLink exact to='#' onClick={(e) => handleClick(e)}>Patient <br /> Portal</NavLink> */}
 </div>
 
 </div>

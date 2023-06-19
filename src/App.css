@@ -1,7 +1,7 @@
 .App {
   line-height: 1.3;
   text-align: center;
-  /* background: red; */
+
   /* background-image: url(https://www.dukehealth.org/sites/default/files/blog_post/thinkstockphotos-480125956.jpg); */
   background-size: cover;
   background-position: center;
@@ -161,7 +161,7 @@ color: red;
 }
 .photo_banner_text > a {
   height: 30vh;
-  max-height: 150px;
+  max-height: 85px;
   width: 30vw;
   min-width: 300px;
   border-radius: 20px;
@@ -178,7 +178,7 @@ color: red;
 .photo_banner1{
   height: 100%;
   width: 100%;
-  background: red;
+  background: darkgray;
   background-image: url('https://upload.wikimedia.org/wikipedia/commons/b/bc/Cervical_Collar_Emergency.jpg');
   background-size: cover;
   background-position: center;
