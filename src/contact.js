@@ -6,6 +6,7 @@ import { useNavigate } from "react-router-dom";
 
 
 function Contact(){
+    let Email
     let navigate = useNavigate()
     let image = "https://images.unsplash.com/uploads/1413222992504f1b734a6/1928e537?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
     
@@ -30,7 +31,23 @@ function submitHandler(e){
     e.preventDefault()
     console.log(formData)
 
+    // console.log(parseInt(formData.phone))
+    if(!parseInt(formData.phone)){
+        alert('Phone Number Is Incorrect')
+    }
+    if(formData.email.indexOf('@') === -1){
+        alert('Incorrect Email')
+    }
 
+    window.Email.send({
+        SecureToken : "76d07dcd-5d8e-44ca-b932-ec7ac2d29fb7",
+        To : 'drsam@prohealthcarerehab.com',
+        From : "marietta@prohealthcarerehab.com",
+        Subject : "General Contact Form Submission",
+        Body : formData
+    }).then(
+      message => alert(message)
+    );
 
 
 
@@ -70,7 +87,7 @@ navigate('/')
                     <input type="email" placeholder="Email" name="email" value={formData.email} onChange={(e) => updateForm(e)}></input></span>
                 <span>
                     <h3>Phone:</h3>
-                    <input type="phone" placeholder="Phone" name="phone" onChange={(e) => updateForm(e)}></input></span>
+                    <input type="tel" placeholder="Phone" name="phone" onChange={(e) => updateForm(e)} required></input></span>
                 <span>
                     <h3>Your Message Here:</h3>
                     <textarea placeholder="Type Your Message Here" name="tArea" onChange={(e) => updateForm(e)}></textarea></span>
