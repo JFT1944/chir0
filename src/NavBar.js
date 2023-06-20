@@ -11,7 +11,7 @@ let [dropdown, setDropDown] = useState(true)
 let [images, setImages] = useState({
     // logo:'https://lh6.googleusercontent.com/F7HPmjg5cDgG2Bt_zxbrt74EWBR3m14B1p83xDeTTh-CW6K-5tEyfSuuGv5iIe25LLeU9tY8Z0b1Cyt7u0NKH_gawcraLGSStSZ_-UhDCVN5sQYPPsXfn4b0b3S6YzPUul1o4z8tC0c3frSaHFMndyk', 
     logo:'https://i.imgur.com/NGJsdat.png', 
-    allDay:'https://www.cobbchiropracticclinic.com/images/Cobb_Chiropractic_Clinic_February2018/Images/chiropractor%20Greensboro.png?width=300&name=chiropractor%20Greensboro.png',
+    allDay:'https://lh6.googleusercontent.com/oU1u9_NbPJqdrgSz1Bog38UyCO59Tjxj_m5JiEFDWQ3yIPYWm-_mgK0dH9Sc4c2eL4fKkijKZ2WobX0Ce-ib_O0mrsAJwj552Bu-Wjq0izXxWyp0nkEE10hrBYDV3jEYWvbyTlALag68CLlIU0M69B8',
 
 })
 
