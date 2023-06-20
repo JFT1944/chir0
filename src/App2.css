@@ -365,6 +365,15 @@ span > h3 {
     z-index: 100;
 
 }
+.m_n_span{
+    transform: rotateY(90deg);
+    transition: transform 1s ease-in-out;
+    color: rgba(0, 0, 0, 0);
+}
+.m_nav_button > a {
+    transform: rotate(90deg);
+    transition: 1s transform ease-in-out;
+}
 
 .line{
     background: #2a2179;
@@ -404,22 +413,39 @@ span > h3 {
 
 .m_nav_button > a {
     display: none !important;
-    /* transform: rotateY('90deg') scale(.5); */
+    transform: rotateY('90deg') scale(.5);
 }
+.m_nav_button > .m_n_span > a{
+color: rgba(0, 0, 0, 0);
+} 
+
 .openMenu > .line {
     height: 10px;
     width: 55px;
     
 }
+.openMenu > .m_n_span {
+    transform: rotateY(0deg) !important;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    /* color: rgba(0, 0, 0, 1); */
+}
 
-.openMenu > a {
+.openMenu > .m_n_span > a {
     font-weight: bold;
     text-decoration: none;
     display: flex !important;
-    animation-name: 'menuOptions';
-    animation-duration: 2s;
+    transform: rotateY(0deg);
+    justify-content: center;
+    /* animation-name: 'menuOptions';
+    animation-duration: 2s; */
+    color: rgba(42 ,33, 121, 1);
     
 }
+
 @keyframes menuOptions {
     0%{
         transform: rotateY('90deg') scale(.5);

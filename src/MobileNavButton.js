@@ -26,14 +26,16 @@ function handleClick(e){
             <span className="line top"></span>
             <span className="line middle"></span>
             <span className="line bottom"></span>
-            <NavLink exact to='/'>Home</NavLink>
-            <NavLink exact to='/about'>About Us</NavLink>
-            <NavLink exact to='/injuries'>Injuries</NavLink>
-            <NavLink exact to='/chiropractic'>Chiropractic</NavLink>
-            <NavLink exact to='/auto-accidents'>Auto Accidents Care</NavLink>
-            <NavLink exact to='/medical'>Medical</NavLink>
-            <NavLink exact to='/attorney'>Attorney Referral</NavLink>
-            <NavLink exact to='/contact-us'>Contact Us</NavLink>
+            <div className="m_n_span">
+            <NavLink className={'m_n_items'} exact to='/'>Home</NavLink>
+            <NavLink className={'m_n_items'} exact to='/about'>About Us</NavLink>
+            <NavLink className={'m_n_items'} exact to='/injuries'>Injuries</NavLink>
+            <NavLink className={'m_n_items'} exact to='/chiropractic'>Chiropractic</NavLink>
+            <NavLink className={'m_n_items'} exact to='/auto-accidents'>Auto Accidents Care</NavLink>
+            <NavLink className={'m_n_items'} exact to='/medical'>Medical</NavLink>
+            <NavLink className={'m_n_items'} exact to='/attorney'>Attorney Referral</NavLink>
+            <NavLink className={'m_n_items'} exact to='/contact-us'>Contact Us</NavLink>
+            </div>
         </div>
         </>
     )
@@ -44,14 +46,16 @@ function handleClick(e){
             <span style={{transform:'rotate(45deg)'}} className="line middle"></span>
             <span style={{transform:'rotate(315deg)'}} className="line middle"></span>
             <span style={{display:'none'}} className="line middle"></span>
-            <NavLink exact to='/'>Home</NavLink>
-            <NavLink exact to='/about'>About Us</NavLink>
-            <NavLink exact to='/injuries'>Injuries</NavLink>
-            <NavLink exact to='/chiropractic'>Chiropractic</NavLink>
-            <NavLink exact to='/auto-accidents'>Auto Accidents Care</NavLink>
-            <NavLink exact to='/medical'>Medical</NavLink>
-            <NavLink exact to='/attorney'>Attorney Referral</NavLink>
-            <NavLink exact to='/contact-us'>Contact Us</NavLink>
+            <div className="m_n_span">
+            <NavLink className={'m_n_items'} exact to='/'>Home</NavLink>
+            <NavLink className={'m_n_items'} exact to='/about'>About Us</NavLink>
+            <NavLink className={'m_n_items'} exact to='/injuries'>Injuries</NavLink>
+            <NavLink className={'m_n_items'} exact to='/chiropractic'>Chiropractic</NavLink>
+            <NavLink className={'m_n_items'} exact to='/auto-accidents'>Auto Accidents Care</NavLink>
+            <NavLink className={'m_n_items'} exact to='/medical'>Medical</NavLink>
+            <NavLink className={'m_n_items'} exact to='/attorney'>Attorney Referral</NavLink>
+            <NavLink className={'m_n_items'} exact to='/contact-us'>Contact Us</NavLink>
+            </div> 
         </div>
         </>
     )
