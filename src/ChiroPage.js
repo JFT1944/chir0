@@ -16,6 +16,7 @@ import Medical from './Medical'
 import Attorney from './Attorney'
 import FormsButton from './FormsButton'
 import NewPatient2 from './newPatient2'
+import MobileNavButton from './MobileNavButton'
 
 
 
@@ -45,6 +46,7 @@ console.log(patientForm)
     <>
     <BrowserRouter>
         <NavBar />
+        {/* <MobileNavButton /> */}
         <Routes >
             <Route path='/' element={<Home />}/>
             <Route path='/about' element={<About />}/>

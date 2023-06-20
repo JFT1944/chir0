@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import {NavLink} from 'react-router-dom'
+import MobileNavButton from "./MobileNavButton";
 
 
 
@@ -65,7 +66,7 @@ return(
     <NavLink exact to='/contact-us'>Contact Us</NavLink>
     {/* <NavLink exact to='#' onClick={(e) => handleClick(e)}>Patient <br /> Portal</NavLink> */}
 </div>
-
+<MobileNavButton />
 </div>
 
 

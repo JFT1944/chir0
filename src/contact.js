@@ -34,9 +34,11 @@ function submitHandler(e){
     // console.log(parseInt(formData.phone))
     if(!parseInt(formData.phone)){
         alert('Phone Number Is Incorrect')
+        return
     }
     if(formData.email.indexOf('@') === -1){
         alert('Incorrect Email')
+        return
     }
 
     window.Email.send({
