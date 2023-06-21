@@ -366,12 +366,12 @@ span > h3 {
 
 }
 .m_n_span{
-    transform: rotateY(90deg);
+    transform: rotateY(90deg) scale(.1);
     transition: transform 1s ease-in-out;
     color: rgba(0, 0, 0, 0);
 }
 .m_nav_button > a {
-    transform: rotate(90deg);
+    transform: rotate(90deg) scale(.1);
     transition: 1s transform ease-in-out;
 }
 
