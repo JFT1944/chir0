@@ -64,13 +64,18 @@ navigate('/')
     <div className="contact_page_holder">
         <div>
         <div className="">
-                <span style={{display:'flex', flexDirection:"column", margin:'50px 0'}}>
+                <span style={{display:'flex', flexDirection:"column", margin:'50px 0', alignItems:'center'}}>
                     <h1>Contact Info</h1>
                     <span style={{display:'flex', flexDirection:"column", margin:0}}>
-                    <p><b>Address:</b> 3208 Canton Rd Suite 112,<br /> Marietta, GA 30066</p>
-                    <p><b>Phone:</b> (770) 800-2070</p>
-                    <p><b>Days:</b> Monday - Friday</p>
-                    <p><b>Hours:</b> 9 AM – 1 PM, 3:30 – 7 PM</p>
+                    <h2>Pro Healthcare Rehab <br />
+3208 Canton Road, Suite 112 <br />
+Marietta, GA  30066
+</h2>
+
+                    <h2>Schedule your appointment TODAY!  <br />
+ (770) 800-2070
+</h2>
+<h2 style={{textAlign: 'center', textDecoration:'underline', fontStyle:'italic'}}>¡Hablamos español!</h2>
                     </span>
                     
                     </span>

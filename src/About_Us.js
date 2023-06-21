@@ -34,9 +34,7 @@ function About_Us(props) {
                 made a significant contribution to the healthcare industry. He
                 has traveled the nation throughout the years while continuing
                 his studies to be up to date on new techniques and methods.
-                During that time, he was introduced to the integrated medical
-                approach that still guides his practice today. He is aware of
-                how crucial it is for professionals with different philosophies
+                 He is aware of how crucial it is for professionals with different philosophies
                 of treatment to collaborate and co-manage patients for the best
                 possible outcome. 
                 <br />
@@ -61,10 +59,12 @@ function About_Us(props) {
             <h2>Sam Kashani, DC </h2>
             <span style={{ width: "90%", maxWidth: "none" }}>
               <p>
-              After earning his bachelor's degree in Biology from the University of North Carolina at  Greensboro in Greensboro, North Carolina, Dr. Sam Kashani went on to complete his  Doctor of Chiropractic from Life University in Marietta, Georgia in 2001. Dedicated to  educating and serving his community, Dr. Sam is committed to helping each of his pa tients discover their full potential with the knowledge he has gained over the years.  <br /><br />
-Now co-owners of Pro Healthcare with Dr. Dante Gurgigno, they are dedicated to help ing individuals with their healthcare needs. <br /><br />
-Dr. Sam, his wife and two children currently lives in the Woodstock, Georgia. Dr. Sam  is very active in his community and surrounding areas. <br /><br />
-His favorite quote is from B.J. Palmer: “The power that made the body will heal the  body." 
+              After earning his bachelor's degree in Biology from the University of North Carolina at Greensboro in Greensboro, North Carolina, Dr. Sam Kashani went on to complete his Doctor of Chiropractic from Life University in Marietta, Georgia in 2001.  Dedicated to educating and serving his community, Dr. Sam is committed to helping each of his patients discover their full potential with the knowledge he has gained over the years.  Now co-owners of Pro Healthcare with Dr. Dante Gurgigno, they are dedicated to helping individuals with their healthcare needs.
+ <br /><br />
+
+Dr. Sam (Saeid) Kashani was original born in Tehran, Iran and moved to the United States with his parents at a young age of 5.  He met his wife in high school in Greensboro, North Carolina and later moved to Marietta, Georgia to attend Chiropractic School.  Dr. Sam and his wife currently live with their two children in Woodstock Georgia. Dr. Sam is very active in his community and surrounding areas.  Dr. Sam is fluent in Farsi and loves Persian culture. <br /><br />
+{/* Dr. Sam, his wife and two children currently lives in the Woodstock, Georgia. Dr. Sam  is very active in his community and surrounding areas. <br /><br /> */}
+His favorite quote is from B.J. Palmer: “The power that made the body will heal the body."
               </p>
             </span>
           </div>

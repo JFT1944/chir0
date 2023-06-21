@@ -1,7 +1,10 @@
 import React, { useState } from "react";
+import { useNavigate } from "react-router-dom";
+
 
 function SubmitForm(props){
 let {text} = props
+let navigate = useNavigate()
 
 const [formData, getFormData] = useState({
     firstName: '', 
@@ -26,16 +29,6 @@ getFormData(data => ({
 
 
 
-
-
-
-
-
-
-
-
-
-
 function handleSubmit(e){
     e.preventDefault()
     
@@ -57,13 +50,21 @@ function handleSubmit(e){
                 return
             }
     }
+    window.Email.send({
+        SecureToken : "76d07dcd-5d8e-44ca-b932-ec7ac2d29fb7",
+        To : 'drsam@prohealthcarerehab.com',
+        From : "marietta@prohealthcarerehab.com",
+        Subject : "General Contact Form Submission",
+        Body : formData
+    }).then(
+      message => alert(message)
+    );
 
 
 
 
 
-
-
+navigate('/')
 }
 
 
