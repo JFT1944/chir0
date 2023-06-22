@@ -35,7 +35,7 @@ if(!formNav){
     <>
     <div className="form_button formButton_add" onClick={(e) => openForms(e)}>
         {/* <img alt="Patient Form Dropdown" src={image} /> */}
-        <h2 style={{position:'absolute', top:0}}>Forms</h2>
+        <h2 style={{position:'absolute', top:0}}>Patient Portal</h2>
         <span style={{backgroundColor:'white', height: '2px', width:'80%', position: 'absolute', top: '67px'}}></span>
         <ul style={{position:'absolute', top: '60px', transform: 'translate(-10px, 10px)'}}>
         <li><NavLink exact to='patient-form'>Patient Form</NavLink> </li>

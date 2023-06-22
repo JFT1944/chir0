@@ -16,7 +16,7 @@ function AutoAccidents(){
 
     return(
     <>
-    <Banner1 image={image} text1={'Auto Accidents'}/>
+    <Banner1 image={image} text1={'Auto Accidents Care'}/>
     <InfoSection info={data}/>
     
     </>)

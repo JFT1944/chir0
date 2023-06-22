@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import {NavLink} from 'react-router-dom'
+import {NavLink, useNavigate} from 'react-router-dom'
 import MobileNavButton from "./MobileNavButton";
 
 
@@ -7,6 +7,7 @@ import MobileNavButton from "./MobileNavButton";
 
 
 function NavBar(){
+let navigate = useNavigate()
 let [dropdown, setDropDown] = useState(true)
 let [images, setImages] = useState({
     // logo:'https://lh6.googleusercontent.com/F7HPmjg5cDgG2Bt_zxbrt74EWBR3m14B1p83xDeTTh-CW6K-5tEyfSuuGv5iIe25LLeU9tY8Z0b1Cyt7u0NKH_gawcraLGSStSZ_-UhDCVN5sQYPPsXfn4b0b3S6YzPUul1o4z8tC0c3frSaHFMndyk', 
@@ -32,8 +33,10 @@ function staffDropDown(e){
 
 
 
-function handleClick(){
-
+function handleC(e){
+e.preventDefault()
+console.log('clicked')
+navigate('/')
 }
 
 
@@ -47,7 +50,7 @@ return(
 <div className="nav_holder" style={{height:''}}>
 <div className="inner_nav_holder">
     <div className="logo_holder">
-        <img src={images.logo} alt="Pro Healthcare Rehab Logo" className="logo"/>
+        <img src={images.logo} alt="Pro Healthcare Rehab Logo" className="logo" onClick={e => handleC(e)}  />
         <img src={images.allDay} alt="24/7 availablility" className="allday"/>
         <span style={{top:'56px'}} className="phone_num">{`(770) 800-2070 `}</span>
         <span className="phone_num two"><span style={{color:'red'}}>Call Now!</span> We're waiting to answer your questions.</span>
