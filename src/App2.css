@@ -527,6 +527,9 @@ color: rgba(0, 0, 0, 0);
         max-width: none !important;
         width: 100%;
     }
+    .photo_banner_text{
+        justify-content: center;
+    }
 }
 @media screen and (min-width:1101px){
     .form_h{
