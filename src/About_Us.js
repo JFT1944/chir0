@@ -73,6 +73,7 @@ His favorite quote is from B.J. Palmer: “The power that made the body will hea
           </div>
           
         </div>
+        
         {/* <hr /> */}
       </div>
     </>

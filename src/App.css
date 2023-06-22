@@ -95,13 +95,13 @@ color: red;
   position: relative;
 }
 .logo{
-  height: 100px;
-    position: absolute;
-    left: 0;
-    top: 20px;
-    width: 100vw;
-    max-width: 315px;
-
+  height: 20vh;
+  position: absolute;
+  left: 0;
+  top: 10px;
+  width: 70vw;
+  max-width: 515px;
+  max-height: 156px;
 }
 .allday{
   right: 0;
@@ -111,10 +111,11 @@ color: red;
 }
 .phone_num{
   font-weight: bold;
-    font-size: 30px;
+    font-size: 21px;
     position: absolute;
     top: 35px;
-    left: 325px;
+    /* left: 394px; */
+    right: 268px;
     font-weight: bold;
     color: red;
 }

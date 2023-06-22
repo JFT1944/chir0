@@ -455,7 +455,10 @@ color: rgba(0, 0, 0, 0);
     }
 }
 
-
+.twotwo{
+    max-width: 1100px;
+    width: 80%;
+}
 
 
 
@@ -514,7 +517,16 @@ color: rgba(0, 0, 0, 0);
     .m_nav_button{
         display:block;
     }
+    .logo{
+        top:7px;
+        max-width: 337px;
+        max-height:88px;
+    }
 
+    #twotwo{
+        max-width: none !important;
+        width: 100%;
+    }
 }
 @media screen and (min-width:1101px){
     .form_h{
