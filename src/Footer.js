@@ -2,7 +2,7 @@ import React from "react";
 
 function Footer(){
 
-    let logo = 'https://i.imgur.com/NGJsdat.png'
+    let logo = 'https://i.imgur.com/36lHey7.png'
 
 
     return(
