@@ -11,7 +11,7 @@ let navigate = useNavigate()
 let [dropdown, setDropDown] = useState(true)
 let [images, setImages] = useState({
     // logo:'https://lh6.googleusercontent.com/F7HPmjg5cDgG2Bt_zxbrt74EWBR3m14B1p83xDeTTh-CW6K-5tEyfSuuGv5iIe25LLeU9tY8Z0b1Cyt7u0NKH_gawcraLGSStSZ_-UhDCVN5sQYPPsXfn4b0b3S6YzPUul1o4z8tC0c3frSaHFMndyk', 
-    logo:'https://lh3.googleusercontent.com/3pFN1jescg-QogN7FhFS4fZtqhpQFW3hMJy9i3Ncdn8PSrhiTj5t7oLgdy5pfnCinTXTAKtt7cWZjzWihO4oLFovYplWeLrbqBtimHbe54fB3qbD52Wv2cntqL6JzHslnuBNxcG8GaG0-UGzlsp257A', 
+    logo:'https://lh3.googleusercontent.com/Bfp1hYYwFHSfNbkdSB5YK0Tc3iaMiphrRghU--lkd4mYesqXOkRMngyXWWsyTWMjlD4IQCNVQY3gFHQizG0Oi-GsLLoyeXCABLRKKplzjnw_AuVk_AHSJJ5Wdrgm11DNhcVA9ufgLVTNYhH-Pc06wwo', 
     allDay:'https://lh6.googleusercontent.com/oU1u9_NbPJqdrgSz1Bog38UyCO59Tjxj_m5JiEFDWQ3yIPYWm-_mgK0dH9Sc4c2eL4fKkijKZ2WobX0Ce-ib_O0mrsAJwj552Bu-Wjq0izXxWyp0nkEE10hrBYDV3jEYWvbyTlALag68CLlIU0M69B8',
 
 })
@@ -53,6 +53,7 @@ return(
         <img src={images.logo} alt="Pro Healthcare Rehab Logo" className="logo" onClick={e => handleC(e)}  />
         <img src={images.allDay} alt="24/7 availablility" className="allday"/>
         <span style={{top:'56px'}} className="phone_num">{`(770) 800-2070 `}</span>
+        <span style={{top:'81px', right:'226px'}}className="phone_num">¡Hablamos español!</span>
         <span className="phone_num two"><span style={{color:'red'}}>Call Now!</span> We're waiting to answer your questions.</span>
 
     </div>

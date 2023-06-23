@@ -361,7 +361,7 @@ span > h3 {
     /* background: white; */
     /* border: 3px solid #2a2179; */
     display: none;
-    transition: height 1s ease-in-out, width 1s ease-in-out;
+    transition: height .5s ease-in-out, width .5s ease-in-out;
     z-index: 100;
 
 }
