@@ -92,7 +92,7 @@ console.log(text)
                 <input type="text" name='lastName' placeholder="Last Name" value={formData.lastName} onChange={(e) => updateForm(e)} required></input>
                 <input type="email" name='email'placeholder="Email Address" value={formData.email} onChange={(e) => updateForm(e)} required></input>
                 <input type="tel" name='phone' placeholder="Phone Number" value={formData.phone} onChange={(e) => updateForm(e)} required></input>
-                <select name='bSit' value={formData.firstName} onChange={(e) => updateForm(e)} required>
+                <select name='bSit' value={formData.bSit} onChange={(e) => updateForm(e)} required>
                     <option value={''}>Help Us Better Understand Your Situation</option>
                     <option value={`Accident Victim and won't need an attorney`}>Accident Victim and won't need an attorney</option>
                     <option value={'Accident Victim and will need an attorney'}>Accident Victim and will need an attorney</option>
