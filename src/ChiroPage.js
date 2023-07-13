@@ -4,6 +4,7 @@ import NavBar from './NavBar'
 import DR from './dr'
 import Home from './home'
 import NewPatient from './newPatient'
+import NewSPatient from './newSPatient'
 import MNav from './MNav'
 import Services from './services'
 import Contact from './contact'
@@ -16,6 +17,7 @@ import Medical from './Medical'
 import Attorney from './Attorney'
 import FormsButton from './FormsButton'
 import NewPatient2 from './newPatient2'
+import NewSPatient2 from './newSPatient2'
 import MobileNavButton from './MobileNavButton'
 
 
@@ -23,7 +25,7 @@ import MobileNavButton from './MobileNavButton'
 function ChiroPage(props){
 //  console.log('top component')
  let {patientForm, setPatientForm, piForm} = props
-
+ let [formNav, setFormNav] = useState(false)
 
 // useEffect(() =>{
 //     console.log('chirp')
@@ -45,7 +47,7 @@ console.log(patientForm)
     
     <>
     <BrowserRouter>
-        <NavBar />
+        <NavBar setFormNav={setFormNav} formNav={setFormNav}/>
         {/* <MobileNavButton /> */}
         <Routes >
             <Route path='/' element={<Home />}/>
@@ -62,10 +64,12 @@ console.log(patientForm)
             <Route path='/dante' element={'dante'}/> */}
              {/* <Route path='/services' element={''}/> */}
             <Route path='/patient-form' element={<NewPatient />}/>
+            <Route path='/patient-form-spanish' element={<NewSPatient />}/>
             <Route path='/personal-injury' element={<NewPatient2 />}/> */
+            <Route path='/personal-injury-spanish' element={<NewSPatient2 />}/> */
     
         </Routes>
-        <FormsButton />
+        <FormsButton formNav={formNav} setFormNav={setFormNav}/>
         <Footer />
     
     </BrowserRouter>

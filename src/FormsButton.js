@@ -3,10 +3,10 @@ import { NavLink } from "react-router-dom";
 
 
 
-function FormsButton(){
+function FormsButton(props){
 
 let image = 'https://lh6.googleusercontent.com/kkYr_-sL155mfcX89TLtK5tuD80TvsCPK3cNkUXKS3F5vDzce4vg7NuYarfD7E8Bsvet68lL8sKcIUTovDi6-uFfxgKLlIzk2-9cpvi7VFtQUjZ1lcJUqS6ir2wpUgIhcVgre_aKUpF2TXDAmuOOCN4'
-let [formNav, setFormNav] = useState(false)
+let {formNav, setFormNav} = props
 
 function openForms(e){
     e.preventDefault()
@@ -39,7 +39,13 @@ if(!formNav){
         <span style={{backgroundColor:'white', height: '2px', width:'80%', position: 'absolute', top: '67px'}}></span>
         <ul style={{position:'absolute', top: '60px', transform: 'translate(-10px, 10px)'}}>
         <li><NavLink exact to='patient-form'>Patient Form</NavLink> </li>
+        <hr />
+        <li><NavLink exact to='patient-form-spanish'>Formulario del paciente</NavLink> </li>
+        <hr />
         <li><NavLink exact to='personal-injury'>Personal Injury Form</NavLink></li>
+        <hr />
+        <li><NavLink exact to='personal-injury-spanish'>Formulario de lesiones personales</NavLink></li>
+        <hr />
         <li><NavLink exact to='contact-us'>General Questions</NavLink></li>
         </ul>
     </div>

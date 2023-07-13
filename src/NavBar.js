@@ -6,7 +6,8 @@ import MobileNavButton from "./MobileNavButton";
 
 
 
-function NavBar(){
+function NavBar(props){
+let {formNav, setFormNav} = props
 let navigate = useNavigate()
 let [dropdown, setDropDown] = useState(true)
 let [images, setImages] = useState({
@@ -39,6 +40,14 @@ console.log('clicked')
 navigate('/')
 }
 
+function formClick(e){
+e.preventDefault()
+if(formNav){
+    setFormNav(true)
+} else {
+    setFormNav(false)
+}
+}
 
 
 
@@ -67,6 +76,7 @@ return(
     <NavLink exact to='/auto-accidents'>Auto Accidents Care</NavLink>
     <NavLink exact to='/medical'>Medical</NavLink>
     <NavLink exact to='/attorney'>Attorney Referral</NavLink>
+    <NavLink exact to='' onClick={(e) => formClick(e)}>Forms</NavLink>
     <NavLink exact to='/contact-us'>Contact Us</NavLink>
     {/* <NavLink exact to='#' onClick={(e) => handleClick(e)}>Patient <br /> Portal</NavLink> */}
 </div>
