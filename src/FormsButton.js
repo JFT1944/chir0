@@ -42,9 +42,15 @@ if(!formNav){
         <hr />
         <li><NavLink exact to='patient-form-spanish'>Formulario del paciente</NavLink> </li>
         <hr />
+        <li><NavLink exact to='patient-form-portuguese'>Formulário do Paciente</NavLink></li>
+        <hr />
         <li><NavLink exact to='personal-injury'>Personal Injury Form</NavLink></li>
         <hr />
         <li><NavLink exact to='personal-injury-spanish'>Formulario de lesiones personales</NavLink></li>
+        <hr />
+        <li><NavLink exact to='personal-injury-portuguese'>Formulário de Danos Pessoais</NavLink></li>
+        <hr />
+        <li><NavLink exact to='pi-contract'>Personal Injury Contract and Authorization</NavLink></li>
         <hr />
         <li><NavLink exact to='contact-us'>General Questions</NavLink></li>
         </ul>

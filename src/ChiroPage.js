@@ -19,6 +19,9 @@ import FormsButton from './FormsButton'
 import NewPatient2 from './newPatient2'
 import NewSPatient2 from './newSPatient2'
 import MobileNavButton from './MobileNavButton'
+import NPIPort from './nPIPort'
+import PIPort from './PIPort'
+import PICA from './PICA'
 
 
 
@@ -67,6 +70,9 @@ console.log(patientForm)
             <Route path='/patient-form-spanish' element={<NewSPatient />}/>
             <Route path='/personal-injury' element={<NewPatient2 />}/> */
             <Route path='/personal-injury-spanish' element={<NewSPatient2 />}/> */
+            <Route path='/patient-form-portuguese' element={<NPIPort />}/>
+            <Route path='/personal-injury-portuguese' element={<PIPort />}/> */
+            <Route path='/pi-contract' element={<PICA />}/> */
     
         </Routes>
         <FormsButton formNav={formNav} setFormNav={setFormNav}/>

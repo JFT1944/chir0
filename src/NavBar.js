@@ -76,7 +76,7 @@ return(
     <NavLink exact to='/auto-accidents'>Auto Accidents Care</NavLink>
     <NavLink exact to='/medical'>Medical</NavLink>
     <NavLink exact to='/attorney'>Attorney Referral</NavLink>
-    <NavLink exact to='' onClick={(e) => formClick(e)}>Forms</NavLink>
+    <NavLink exact to='/forms' onClick={(e) => formClick(e)}>Forms</NavLink>
     <NavLink exact to='/contact-us'>Contact Us</NavLink>
     {/* <NavLink exact to='#' onClick={(e) => handleClick(e)}>Patient <br /> Portal</NavLink> */}
 </div>

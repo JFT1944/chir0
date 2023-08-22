@@ -249,7 +249,7 @@ text-align: justify;
 
 .formButton_add{
     width: 250px;
-    height: 375px;
+    height: 500px;
     color:white;
     animation-name:none;
 }
@@ -257,11 +257,11 @@ text-align: justify;
     color: white;
     font-weight: bold;
     text-align: left;
-    font-size: 19px;
+    font-size: 18px;
     text-decoration: none;
 }
 .formButton_add > ul > li{
-    
+    font-size: 19px;
     text-align: left;
     animation-name: liss;
     animation-duration: 1s;
